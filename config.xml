@@ -64,8 +64,14 @@ PhoneGap Build Configuration
 
         </edit-config>
         -->
+        <!--
         <edit-config file="AndroidManifest.xml" target="/manifest/application/activity[@android:label='@string/activity_name']" mode="merge">
             <activity android:theme="@android:style/Theme.Translucent.NoTitleBar"></activity>
         </edit-config>
+        -->
     </platform>
+    
+    <source-file src="src/android/styles.xml" target-dir="res/values" />
+    <preference name="android-manifest/application/activity/@android:theme" value="@style/WelcomeStyle" />
+    <preference name="AutoHideSplashScreen" value="false" />
 </widget>
