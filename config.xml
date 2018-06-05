@@ -44,8 +44,8 @@ PhoneGap Build Configuration
     <plugin spec="https://github.com/napolitano/cordova-plugin-intent.git" source="git" />
     
     <!-- https://www.npmjs.com/package/diogo-cordova-android-theme-config -->
-    <!-- <plugin name="cordova-plugin-camera" source="npm" spec="~2.1.1" /> -->
-    <plugin spec="https://github.com/douglaszaltron/cordova-plugin-window-background.git" source="git" />
+    <plugin name="diogo-cordova-android-theme-config" source="npm"  />
+    <!-- <plugin spec="https://github.com/douglaszaltron/cordova-plugin-window-background.git" source="git" /> -->
     
     <!--
     <preference name="BackgroundColor" value="transparent"/>
