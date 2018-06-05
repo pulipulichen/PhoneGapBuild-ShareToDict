@@ -41,10 +41,10 @@ PhoneGap Build Configuration
     
     <!-- https://github.com/napolitano/cordova-plugin-intent -->
     <plugin spec="https://github.com/napolitano/cordova-plugin-intent.git" source="git" />
-    
+<   <!--
     <preference name="BackgroundColor" value="transparent"/>
     <preference name="WebViewBackgroundColor" value="transparent" />
-    
+    -->
     <platform name="android">
         <config-file target="AndroidManifest.xml" parent="/manifest/application/activity">
             <intent-filter android:label="🔍 MDict">
