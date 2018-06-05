@@ -18,7 +18,7 @@ PhoneGap Build Configuration
     <!--  allows access to any external resource. -->
     <access origin="*"/>
     <allow-navigation href="*" />
-    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
   
     <content src="index.html"/>
     <icon src="www/img/icon.png"/>
@@ -51,9 +51,9 @@ PhoneGap Build Configuration
     <preference name="BackgroundColor" value="transparent"/>
     <preference name="WebViewBackgroundColor" value="transparent" />
     -->
-    <!--
+    
     <preference name="BackgroundColor" value="0x00000000"/>
-    -->
+    
     <!-- <preference name="WebViewBackgroundColor" value="0xff006600" /> -->
 
     <!--
@@ -72,6 +72,11 @@ PhoneGap Build Configuration
                      target="/manifest/application"
                      mode="merge">
             <application android:theme="@android:style/Theme.Translucent"></application>
+        </edit-config>
+        <edit-config file="AndroidManifest.xml"
+                     target="/manifest/application/activity"
+                     mode="merge">
+            <activity android:theme="@android:style/Theme.Translucent"></activity>
         </edit-config>
         <config-file target="AndroidManifest.xml" parent="/manifest/application/activity">
             <intent-filter android:label="🔍 MDict">
