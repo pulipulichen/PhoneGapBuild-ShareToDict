@@ -162,6 +162,7 @@ intent_handler = function (intent) {
 };
 
 openActivity = function () {
+    return;
     var _config = {
         action: "com.ngc.fora.action.LOOKUP",
         extras: {
