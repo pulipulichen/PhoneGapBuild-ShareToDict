@@ -42,7 +42,7 @@ PhoneGap Build Configuration
     <!-- https://github.com/napolitano/cordova-plugin-intent -->
     <plugin spec="https://github.com/napolitano/cordova-plugin-intent.git" source="git" />
     
-    <preference name="BackgroundColor" value="0xff0000ff"/>
+    <preference name="BackgroundColor" value="0xff000000"/>
     <preference name="WebViewBackgroundColor" value="transparent" />
     
     <platform name="android">
