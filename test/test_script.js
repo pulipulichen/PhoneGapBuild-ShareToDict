@@ -1,5 +1,5 @@
 intent_handler = function (intent) {
-    alert("換了 可以嗎？");
+    //alert("換了 可以嗎？");
     //alert(JSON.stringify(intent));
     if (typeof (intent.action) === "string"
             && intent.action === "android.intent.action.MAIN") {
@@ -100,17 +100,17 @@ intent_handler = function (intent) {
 
             var _config = {
                 //action: "android.app.SearchManager.INTENT_ACTION_GLOBAL_SEARCH",
-                action: "android.intent.action.WEB_SEARCH",
+                action: "com.ngc.fora.action.LOOKUP",
                 //data: _search_text,
                 //uri: _search_text,
                 //url: _search_text,
                 //pacakge: "com.google.android.googlequicksearchbox",
                 extras: {
                     //"android.intent.extra.SUBJECT": _search_text,
-                    //"android.intent.extra.TEXT": _search_text,
+                    "android.intent.extra.TEXT": _search_text,
                     //"ACTION_MSG": 1,
                     //"ACTION_MSG": 1,
-                    "query": _search_text,
+                    //"query": _search_text,
                     //"SearchManager": {
                     //    "QUERY": _search_text,
                     //}
