@@ -34,8 +34,8 @@ intent_handler = function (intent) {
         // 沒有要檢索的東西，回家吧。
         //alert("空空");
         openActivity();
-        return;
-        //navigator.app.exitApp();
+        //return;
+        navigator.app.exitApp();
     }
 
     var _search_items = [];
@@ -163,7 +163,7 @@ intent_handler = function (intent) {
 };
 
 openActivity = function () {
-    return;
+    //return;
     var _config = {
         action: "com.ngc.fora.action.LOOKUP",
         extras: {
