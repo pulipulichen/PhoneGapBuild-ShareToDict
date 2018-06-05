@@ -72,7 +72,7 @@ PhoneGap Build Configuration
     </platform>
     
     <source-file src="src/android/styles.xml" target-dir="res/values" />
-    <preference name="android-manifest/application/activity/@android:theme" value="@style/WelcomeStyle" />
+    <!-- <preference name="android-manifest/application/activity/@android:theme" value="@style/WelcomeStyle" /> -->
     <!--
     <preference name="AutoHideSplashScreen" value="false" />
     -->
