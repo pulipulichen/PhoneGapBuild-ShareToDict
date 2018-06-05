@@ -45,7 +45,7 @@ PhoneGap Build Configuration
     <preference name="BackgroundColor" value="transparent"/>
     <preference name="WebViewBackgroundColor" value="transparent" />
     -->
-    <preference name="BackgroundColor" value="0x66000066"/>
+    <preference name="BackgroundColor" value="0x00000066"/>
     <!-- <preference name="WebViewBackgroundColor" value="0xff006600" /> -->
     
     <platform name="android">
