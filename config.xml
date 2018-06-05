@@ -57,7 +57,7 @@ PhoneGap Build Configuration
                         target="/manifest/application"
                         mode="merge"
                         platform="android">
-            <application android:theme="@android:style/Translucent.NoTitleBar"></application>
+            <application android:theme="@android:style/Translucent"></application>
 
         </edit-config>
     </platform>
