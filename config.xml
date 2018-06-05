@@ -66,8 +66,6 @@ PhoneGap Build Configuration
     -->
 
     <platform name="android">
-        
-        
         <edit-config file="AndroidManifest.xml"
                      target="/manifest/application"
                      mode="merge">
