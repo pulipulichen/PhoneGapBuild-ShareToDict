@@ -164,6 +164,9 @@ intent_handler = function (intent) {
 openActivity = function () {
     var _config = {
         action: "com.ngc.fora.action.LOOKUP",
+        extras: {
+            "android.intent.extra.TEXT": "",
+        }
     };
 
     try {
