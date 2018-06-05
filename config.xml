@@ -50,7 +50,7 @@ PhoneGap Build Configuration
     <edit-config file="AndroidManifest.xml"
                         target="/manifest/application"
                         mode="merge">
-            <application android:theme="@android:style/Theme.Translucent"></application>
+            <application android:theme="@android:color/transparent"></application>
         </edit-config>
 
     <platform name="android">
