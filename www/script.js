@@ -178,4 +178,4 @@ openActivity = function () {
     } catch (e) {
         alert(e);
     }
-}
+};
