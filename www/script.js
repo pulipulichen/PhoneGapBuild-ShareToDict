@@ -34,7 +34,8 @@ intent_handler = function (intent) {
         // 沒有要檢索的東西，回家吧。
         //alert("空空");
         openActivity();
-        navigator.app.exitApp();
+        return;
+        //navigator.app.exitApp();
     }
 
     var _search_items = [];
