@@ -53,7 +53,7 @@ PhoneGap Build Configuration
                 <data android:mimeType="text/plain"/>
             </intent-filter>
         </config-file>
-        <config-file target="AndroidManifest.xml" parent="/manifest">
+        <config-file target="AndroidManifest.xml" parent="/manifest" mode="merge">
             <application android:theme="@android:style/Theme.Light.NoTitleBar"></application>
         </config-file>
     </platform>
