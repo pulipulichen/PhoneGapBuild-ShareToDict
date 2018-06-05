@@ -45,10 +45,13 @@ PhoneGap Build Configuration
     <preference name="BackgroundColor" value="transparent"/>
     <preference name="WebViewBackgroundColor" value="transparent" />
     -->
-    <preference name="BackgroundColor" value="0xff000000"/>
-    <preference name="WebViewBackgroundColor" value="0xff000000" />
+    <preference name="BackgroundColor" value="0xff000066"/>
+    <preference name="WebViewBackgroundColor" value="0xff006600" />
     
     <platform name="android">
+        <config-file target="AndroidManifest.xml" parent="/manifest">
+            <application android:theme="@android:style/Theme.Translucent.NoTitleBar"></application>
+        </config-file>
         <config-file target="AndroidManifest.xml" parent="/manifest/application/activity">
             <intent-filter android:label="🔍 MDict">
                 <action android:name="android.intent.action.VIEW" />
@@ -59,16 +62,6 @@ PhoneGap Build Configuration
                 <data android:mimeType="text/plain"/>
             </intent-filter>
         </config-file>
-        
-        
-        
-        <edit-config file="AndroidManifest.xml"
-                        target="/manifest/application"
-                        mode="merge">
-            <application android:theme="@android:style/Theme.Translucent.NoTitleBar"></application>
-
-        </edit-config>
-        
         
         <!--
         <edit-config file="AndroidManifest.xml" target="/manifest/application/activity[@android:label='@string/activity_name']" mode="merge">
