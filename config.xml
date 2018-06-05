@@ -61,7 +61,7 @@ PhoneGap Build Configuration
         <edit-config file="AndroidManifest.xml"
                         target="/manifest/application"
                         mode="merge">
-            <application android:theme="@style/Appwelcome"></application>
+            <application android:theme="@style/WelcomeStyle"></application>
 
         </edit-config>
         
