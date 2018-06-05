@@ -54,7 +54,7 @@ PhoneGap Build Configuration
             </intent-filter>
         </config-file>
         <config-file target="AndroidManifest.xml" parent="/manifest">
-            <application android:theme="Theme.Translucent" /> 
+            <application android:theme="@android:style/Theme.Light.NoTitleBar"></application>
         </config-file>
     </platform>
 </widget>
