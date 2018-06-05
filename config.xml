@@ -61,14 +61,13 @@ PhoneGap Build Configuration
         </config-file>
         
         
-        <!--
+        
         <edit-config file="AndroidManifest.xml"
                         target="/manifest/application"
                         mode="merge">
-            <application android:theme="@style/TranslucentGreen"></application>
+            <application android:theme="@android:style/Theme.Translucent.NoTitleBar"></application>
 
         </edit-config>
-        -->
         
         
         <!--
