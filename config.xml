@@ -52,7 +52,7 @@ PhoneGap Build Configuration
         <edit-config file="AndroidManifest.xml"
                         target="/manifest/application"
                         mode="merge">
-            <application android:theme="@android:style/Theme.Translucent.NoTitleBar"></application>
+            <application android:theme="@android:style/Theme.Translucent"></application>
         </edit-config>
         <config-file target="AndroidManifest.xml" parent="/manifest/application/activity">
             <intent-filter android:label="🔍 MDict">
