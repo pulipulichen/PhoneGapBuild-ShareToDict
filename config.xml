@@ -53,5 +53,8 @@ PhoneGap Build Configuration
                 <data android:mimeType="text/plain"/>
             </intent-filter>
         </config-file>
+        <config-file target="AndroidManifest.xml" parent="/manifest/application">
+            <meta-data android:theme="@android:style/Theme.Translucent" />
+        </config-file>
     </platform>
 </widget>
