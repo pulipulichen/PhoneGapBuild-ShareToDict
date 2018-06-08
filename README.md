@@ -4,6 +4,7 @@ Android APP for open dictionary via sharing.
 - GitHub: https://github.com/pulipulichen/PhoneGapBuild-ShareToDict
 - PhoneGap Build: https://build.phonegap.com/apps/3192553/builds
     * https://build.phonegap.com/apps
+    * https://build.phonegap.com/people/sign_in
 
 - Install: https://bit.ly/2sHfZHD
 * https://build.phonegap.com/apps/3192553/download/android
