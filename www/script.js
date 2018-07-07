@@ -61,8 +61,8 @@ intent_handler = function (intent) {
         for (var _i = 0; _i < _key_list.length; _i++) {
             if (_has_string(_extras[_key_list[_i]])) {
                 var _subject = _extras[_key_list[_i]].trim();
-                for (var _i = 0; _i < FILTER_SUBJECT.length; _i++) {
-                    var _needle = FILTER_SUBJECT[_i];
+                for (var _j = 0; _j < FILTER_SUBJECT.length; _j++) {
+                    var _needle = FILTER_SUBJECT[_j];
                     if (_subject === _needle) {
                         //_text = _text.substring(_needle.length, _text.length).trim();
                         _subject = null;
