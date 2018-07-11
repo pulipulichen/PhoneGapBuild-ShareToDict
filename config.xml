@@ -85,6 +85,7 @@ PhoneGap Build Configuration
                 <category android:name="android.intent.category.BROWSABLE"></category>
                 <data android:mimeType="text/plain"/>
             </intent-filter>
+            <!--
             <intent-filter android:label="📓 MDict">
 				<action
 					android:name="android.intent.action.VIEW"/>
@@ -139,6 +140,7 @@ PhoneGap Build Configuration
 					android:host="*"
 					android:pathPrefix="/configure"/>
 			</intent-filter>
+                        -->
         </config-file>
         
         
