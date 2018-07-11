@@ -85,6 +85,38 @@ PhoneGap Build Configuration
                 <category android:name="android.intent.category.BROWSABLE"></category>
                 <data android:mimeType="text/plain"/>
             </intent-filter>
+            <intent-filter android:label="📓 MDict">
+				<action
+					android:name="android.intent.action.VIEW"/>
+				<category
+					android:name="android.intent.category.DEFAULT"/>
+				<category
+					android:name="android.intent.category.BROWSABLE"/>
+				<data
+					android:scheme="http"
+					android:host="translate.google.com"
+					android:path="/"/>
+				<data
+					android:scheme="https"
+					android:host="translate.google.com"
+					android:path="/"/>
+				<data
+					android:scheme="http"
+					android:host="translate.google.com"
+					android:path="/m"/>
+				<data
+					android:scheme="https"
+					android:host="translate.google.com"
+					android:path="/m"/>
+				<data
+					android:scheme="http"
+					android:host="translate.google.com"
+					android:path="/m/translate"/>
+				<data
+					android:scheme="https"
+					android:host="translate.google.com"
+					android:path="/m/translate"/>
+			</intent-filter>
         </config-file>
         
         
