@@ -117,6 +117,28 @@ PhoneGap Build Configuration
 					android:host="translate.google.com"
 					android:path="/m/translate"/>
 			</intent-filter>
+                        <intent-filter>
+				<action
+					android:name="android.intent.action.VIEW"/>
+				<action
+					android:name="android.nfc.action.NDEF_DISCOVERED"/>
+				<category
+					android:name="android.intent.category.BROWSABLE"/>
+				<category
+					android:name="android.intent.category.DEFAULT"/>
+				<data
+					android:scheme="googletranslate"
+					android:host="*"
+					android:pathPrefix="/open"/>
+				<data
+					android:scheme="googletranslate"
+					android:host="*"
+					android:pathPrefix="/with_inputmethod"/>
+				<data
+					android:scheme="googletranslate"
+					android:host="*"
+					android:pathPrefix="/configure"/>
+			</intent-filter>
         </config-file>
         
         
